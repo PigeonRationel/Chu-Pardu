@@ -34,13 +34,13 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        // { Component: Component.ReaderMode() },
+        // { Component: Component.ReaderMode() }, // *Enlever les slash ici afin de réablir la fonction et l'icône
       ],
     }),
     Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
+    // Component.Graph(), // *Enlever les slash ici afin de réablir la fonction et l'icône
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],

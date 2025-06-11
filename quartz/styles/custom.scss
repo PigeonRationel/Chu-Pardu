@@ -2,16 +2,19 @@
 
 // put your custom CSS here!
 
-html {
-text-align: left;
+.page {
+text-align: justify;
   overflow-x: hidden;
   width: 100vw;
+  word-break: keep-all;
+  overflow-wrap: normal;
+  hyphens: none;
+  white-space: normal;
   }
   
 p {
-font-size: 1.2rem;
+font-size: 1.3rem;
 line-height: 1.4;
-word-wrap: break-word;
 }
 
 .page-title {
@@ -24,6 +27,11 @@ word-wrap: break-word;
   }
   .sidebar.left {
     position: static !important;
+  }
+  html {
+text-align: left;
+  overflow-x: hidden;
+  width: 100vw;
   }
 }
 
