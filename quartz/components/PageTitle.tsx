@@ -15,7 +15,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 
 PageTitle.css = `
 .page-title {
-  font-size: 5rem;
+  font-size: 5em;
   margin: 0;
   font-family: var(--titleFont);
 }
