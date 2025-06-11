@@ -3,13 +3,13 @@
 // put your custom CSS here!
 
 html {
-text-align: justify;
+text-align: left;
   overflow-x: hidden;
   width: 100vw;
   }
   
 p {
-font-size: 1.3rem;
+font-size: 1.2rem;
 line-height: 1.4;
 }
 
@@ -28,4 +28,10 @@ line-height: 1.4;
 
 .article-title {
   font-size: 3rem;
+}
+
+img[alt*="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
