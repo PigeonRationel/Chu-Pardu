@@ -1,5 +1,4 @@
 @use "./base.scss";
-@use "./themes";
 
 // put your custom CSS here!
 
@@ -10,12 +9,14 @@ text-align: justify;
   }
   
 p {
-font-size: 1.4em;
-line-height: 1.6;
+font-size: 1.3rem;
+line-height: 1.4;
 }
 
-PageTitle {
-font-size: 1em;
-line-height: 1.6;
+.page-title {
+  font-size: 4rem;
 }
 
+.article-title {
+  font-size: 3rem;
+}

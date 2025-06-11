@@ -16,15 +16,16 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "pigeonrationel.github.io/chu-pardu/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        title: "Quicksand",
+        header: "Nunito",
+        body: "Nunito",
         code: "IBM Plex Mono",
       },
       colors: {
