@@ -4,7 +4,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
   // If baseUrl contains a pathname after the domain, use this as the home link
   const url = new URL(`https://pigeonrationel.github.io/chu-pardu/`)
-  const baseDir = url.pathname
+  const baseDir = (`https://pigeonrationel.github.io/chu-pardu/`)
 
   return (
     <article class="popover-hint">
